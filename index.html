@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+</head>
+<body>
+    <!--Navebar-->
+    <nav class="navbar navbar-expand navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a href="#" class=" nav-link "> <h4 class="d-inline bi bi-person-vcard text-light">&nbspCloud Contact</h4></a>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light " href="#" > Hello Sultans Dine</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light bi bi-box-arrow-right" href="#">&nbspLogout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!--Main Section-->
+    <section class="container">
+        <div class="row" >
+
+            <!-- Main Col-Left -->
+            <div class="col-md-6">
+                <h4 class="text-center py-4 fw-bold text-primary">Add Contact</h4>
+                <form action="">
+                    <input class="form-control form-control-sm mb-2" type="text" placeholder="Name">
+                    <input class="form-control form-control-sm mb-2" type="text" placeholder="Email">
+                    <input class="form-control form-control-sm mb-2" type="text" placeholder="Phone">
+                    <h6>Contact Type</h6>
+                    <input class="form-check-input" type="radio" name="radio-contact" id="radio1" value="option1 " >
+                    <label class="form-check-label" for="radio1">
+                     Presonal
+                    </label>
+
+                    <input class="form-check-input" type="radio" name="radio-contact" id="radio2" value="option1 " >
+                    <label class="form-check-label" for="radio2">
+                     Professional
+                    </label>
+                    
+                    <input class="form-control form-control-lg mt-3" id="formFileLg" type="file">
+
+
+                    <div class="d-grid gap-2">
+                      <button type="button" name="" id="" class="btn btn-primary my-4">Add Contact</button>
+                    </div>
+                </form>
+               </div>
+            
+            <!-- Main Col-Ri -->
+            <div class="col-md-6">
+
+                <input class="form-control form-control-sm my-3" type="text" placeholder="Name">
+                    
+                <div class="card mb-3 bg-light" style="max-width: auto;">
+                    <div class="row g-0">
+                      <div class="col-8 ">
+                        <div class="card-body">
+                          <h5 class="card-title text-primary">Ishan Sarker</h5>
+                          <p class="card-text">Ishan@gmail.com</p>
+                          <p class="card-text">123456789000</p>
+                          <button type="button" class="btn btn-dark">Edit</button>
+                          <button type="button" class="btn btn-danger">Delete</button>
+
+                          </div>
+                      </div>
+                      <div class="col-4  text-end ">
+                        <div class="mx-3">
+                             <button type="button" class="btn btn-primary my-3">Personal</button>
+                            <img src="./picture.png" class="img-fluid rounded mb-3" alt="...">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3 bg-light" style="max-width: auto;">
+                    <div class="row g-0">
+                      <div class="col-8 ">
+                        <div class="card-body">
+                          <h5 class="card-title text-primary">Erafi Ahonaf</h5>
+                          <p class="card-text">erafi@gmail.com</p>
+                          <p class="card-text">098765432111</p>
+                          <button type="button" class="btn btn-dark">Edit</button>
+                          <button type="button" class="btn btn-danger">Delete</button>
+                        </div>
+                      </div>
+                      <div class="col-4 text-end">
+                        <div class="mx-3">
+                            <button type="button" class="btn btn-success my-3 ">Professional</button>
+                            <img src="./picture.png" class=" img-fluid rounded mb-3" alt="...">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3 bg-light" style="max-width: auto;">
+                    <div class="row g-0">
+                      <div class="col-8 ">
+                        <div class="card-body">
+                          <h5 class="card-title text-primary">John Doe</h5>
+                          <p class="card-text">john@gmail.com</p>
+                          <p class="card-text">776665543212</p>
+                          <button type="button" class="btn btn-dark">Edit</button>
+                          <button type="button" class="btn btn-danger">Delete</button>
+                        </div>
+                      </div>
+                      <div class="col-4 text-end">
+                        <div class="mx-3">
+                            <button type="button" class="btn btn-success my-3">Professional</button>
+                            <img src="./picture.png" class="img-fluid rounded mb-3" alt="...">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
